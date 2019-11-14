@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Nina</title>
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!doctype>
+<html>
+  <head>
+    <title>ShoppingList</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-hVpXlpdRmJ+uXGwD5W6HZMnR9ENcKVRn855pPbuI/mwPIEKAuKgTKgGksVGmlAvt" crossorigin="anonymous">
+
+    </head>
+  <body>
+    <center><h1>Shopping List</h1>
+    <p style="font-family:snell roundhand;font-size:20px">What would you like to buy?</p></center>
+
+    <table class="table">
+    <tr>
+      <th style="text-align: center;color:black">Item
+      </th>
+      <th style="text-align: center;color:black">Cost</th>
+      <th style="text-align: center;color:black">Add to cart</th>
+    </tr>
+      <td style="text-align: center">Fame</td>
+      <td style="text-align: center">$5000</td>
+      <td style="text-align: center"><button onclick="addToCart('5000', 'Fame')">Buy</button></td>
+    <tr>
+      <td style="text-align: center">Fortune</td>
+      <td style="text-align: center" id="item">$9999</td>
+      <td style="text-align: center"><button onclick="addToCart('9999', 'Fortune')">Buy</button></td>
+    </tr>
+      <tr>
+        <td style="text-align: center;font-family:snell roundhand;font-size:20px">Ron Swanson's Personality</td>
+        <td style="text-align: center;font-family:snell roundhand;font-size:20px">$1000001.01</td>
+        <td style="text-align: center;font-family:snell roundhand;font-size:20px;"><button onclick="addToCart('1000001.01', 'Ron Swansons Personality')">Buy</button></td>
+      </tr>
+      <tr>
+        <td style="text-align: center">Gratitude</td>
+        <td style="text-align: center">$5</td>
+        <td style="text-align: center"><button onclick="addToCart('5', 'Gratitude')">Buy</button></td>
+      </tr>
+  <table>
+
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
